@@ -29,10 +29,10 @@ public:
     }
     
     int printMembers () {
-        //BaseShape::printMembers();
+        BaseShape::printMembers();
         
-        cout << "aCommonMember: " << aCommonMember << endl;
-        cout << "color: " <<color << endl;
+        //cout << "aCommonMember: " << aCommonMember << endl;
+        //cout << "color: " <<color << endl;
         cout << "half radius: " << halfRadius << endl;
         return 0;
     }
